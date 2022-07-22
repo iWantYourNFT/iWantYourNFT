@@ -15,7 +15,7 @@ contract HuskyArt is ERC721, ERC721URIStorage, Ownable {
     constructor() ERC721("iWantYourNFT", "IWYN") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "";
+        return "https://h4sh.it/NFT/";
     }
 
     function safeMint(address to, string memory uri) public onlyOwner {
