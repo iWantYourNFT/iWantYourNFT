@@ -10,7 +10,7 @@ contract HuskyArt is ERC721, ERC721URIStorage, Ownable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("iWantYoutNFT", "IWYN") {}
+    constructor() ERC721("iWantYourNFT", "IWYN") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "";
